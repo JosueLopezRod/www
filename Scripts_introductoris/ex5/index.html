@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Calculadora IVA</title>
+</head>
+
+<body>
+
+    <h1>Calculadora de IVA</h1>
+
+    <form action="logic.php" method="GET">
+
+        <label>Precio:</label>
+        <input type="number" name="precio" step="0.01">
+
+        <br><br>
+
+        <label>Tipo de IVA:</label>
+        <br>
+
+        <input type="radio" name="iva" value="21">
+        21%
+        <br>
+
+        <input type="radio" name="iva" value="10">
+        10%
+        <br>
+
+        <input type="radio" name="iva" value="4">
+        4%
+        <br><br>
+
+        <input type="submit" value="Calcular">
+
+    </form>
+
+</body>
+
+</html>
