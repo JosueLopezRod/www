@@ -14,7 +14,7 @@ if (isset($_SESSION['name'])) {
 
 } else {
 
-    echo "Ok, la sesión ya no está activa!<br>";
+    echo "Ok, la sesion ya no esta activada!<br>";
     echo "<a href='page1.php'>Volver atrás</a>";
 
 }
