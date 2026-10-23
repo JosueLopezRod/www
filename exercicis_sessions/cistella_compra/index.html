@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tienda</title>
+</head>
+
+<body>
+
+    <h1>Tienda online</h1>
+
+    <h2>Teclado - 20 €</h2>
+
+    <form action="cistella_compra.php" method="POST">
+        <input type="hidden" name="producto" value="teclado">
+
+        <label>Cantidad:</label>
+        <input type="number" name="cantidad" min="1" max="99" required>
+
+        <input type="submit" value="Añadir teclado">
+    </form>
+
+    <h2>Ratón - 10 €</h2>
+
+    <form action="cistella_compra.php" method="POST">
+        <input type="hidden" name="producto" value="raton">
+
+        <label>Cantidad:</label>
+        <input type="number" name="cantidad" min="1" max="99" required>
+
+        <input type="submit" value="Añadir ratón">
+    </form>
+
+</body>
+
+</html>
